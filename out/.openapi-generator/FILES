@@ -1,0 +1,10 @@
+.gitignore
+api.ts
+api/apis.ts
+api/petsApi.ts
+git_push.sh
+model/modelError.ts
+model/models.ts
+model/pet.ts
+package.json
+tsconfig.json

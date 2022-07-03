@@ -1,0 +1,13 @@
+{
+  "name": "openapi-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "openapi-generator-cli validate -i test.json",
+    "generate": "openapi-generator-cli generate -i test.json -g typescript-node -o out -c config.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

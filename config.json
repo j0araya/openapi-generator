@@ -1,0 +1,7 @@
+{
+  "npmName": "@swagger/typescript-test",
+  "npmVersion": "1.0.0",
+  "npmRepository" : "",
+  "snapshot" : false,
+  "supportsES6": true
+}
