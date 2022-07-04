@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "validate": "openapi-generator-cli validate -i test.json",
-    "generate": "openapi-generator-cli generate -i test.json -g typescript-node -o out -c config.json"
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "validate": "openapi-generator-cli validate -i src/api.json",
+    "generate": "openapi-generator-cli generate -i src/api.json -g typescript-node -o out -c config.json"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.5.1",
+    "prettier": "^2.7.1"
+  }
 }

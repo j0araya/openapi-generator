@@ -13,7 +13,7 @@
 import { RequestFile } from './models';
 
 export class ModelError {
-    'code': number;
+    'code': string;
     'message': string;
 
     static discriminator: string | undefined = undefined;
@@ -22,7 +22,7 @@ export class ModelError {
         {
             "name": "code",
             "baseName": "code",
-            "type": "number"
+            "type": "string"
         },
         {
             "name": "message",

@@ -1,7 +1,8 @@
 {
-  "npmName": "@swagger/typescript-test",
+  "npmName": "openapi-typescript-test",
   "npmVersion": "1.0.0",
   "npmRepository" : "",
   "snapshot" : false,
-  "supportsES6": true
+  "supportsES6": true,
+  "generateAliasAsModel": true
 }
